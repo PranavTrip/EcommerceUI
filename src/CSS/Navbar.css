@@ -1,39 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-:root {
-  --bgcolor: #f1f5fd;
-  --primary-color: #6f5dc7;
-  --text-color: #828286;
-  --main-text-color: #333333;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #333333;
-}
-
 /* Navbar Styling Starts */
 .navbar-bg {
-  background-color: var(--bgcolor);
+  background-color: var(--primary-color);
   padding: 2rem;
   z-index: 99;
   position: relative;
@@ -80,3 +47,4 @@ h6 {
   color: #fff;
   background-color: var(--primary-color);
 }
+/* Navbar styling Ends */
